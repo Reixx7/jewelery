@@ -1,6 +1,6 @@
 import React from 'react'
 import Zari from './components/Zari.jsx'
-import Ezo from './Components/Ezo.jsx'  
+import Ezo from './components/Ezo.jsx'  
 
 const App = () => {
   return (
@@ -8,7 +8,7 @@ const App = () => {
       <Zari/>
 
 
-      <Ezo />
+      
     </div>
   )
 }
