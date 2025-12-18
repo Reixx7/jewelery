@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import blogitem from '../assets/blogitem.png'
 import bgc from '../assets/bgc.png'
 
+
 export default function JewelryWebsite() {
   const [activeCategory, setActiveCategory] = useState('СВАДЬБА');
 
@@ -45,7 +46,7 @@ export default function JewelryWebsite() {
           <div className="flex items-center justify-between py-4 ">
             <div className="flex items-center space-x-8 text-sm">
               <a href="#" className="hover:text-gray-300">Бриллианты</a>
-              <a href="#" className="hover:text-gray-300">Ювелирам</a>
+              <a href="#" className="hover:text-gray-300">Контакты</a>
               <a href="#" className="hover:text-gray-300">Новинки</a>
             </div>
             
