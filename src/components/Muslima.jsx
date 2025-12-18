@@ -1,11 +1,12 @@
 import React, { useState } from "react";
+import img from '../assets/Rectangle 21.png'
 
 const products = Array.from({ length: 6 }).map((_, i) => ({
   id: i,
   brand: "Dolce & Gabbana",
   type: "Подвеска",
   price: "175 000 ₽",
-  image: "https://via.placeholder.com/320x220",
+  image: img,
 }));
 
 const Muslima = () => {
@@ -26,14 +27,10 @@ const Muslima = () => {
             <span>Вакансии</span>
           </div>
 
-          {/* LOGO */}
+          
           <div className="flex items-center gap-2 text-2xl font-semibold">
-            <img
-              src="https://via.placeholder.com/40"
-              alt="logo"
-              className="w-10 h-10 rounded-full"
-            />
-            JJO
+           
+            OJJO
           </div>
 
           <div className="flex items-center gap-6 text-sm">
